@@ -17,7 +17,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/custom.css">
 <!--
-    
+
 TemplateMo 561 Purple Buzz
 
 https://templatemo.com/tm-561-purple-buzz
@@ -47,20 +47,24 @@ https://templatemo.com/tm-561-purple-buzz
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.html">Work</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.html">Survey Request</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="pricing.html">Pricing</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="pricing.html">Community</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="contact.html">Contact</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="contact.html">Data Market</a>
+                            <div class="dropdown">
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="reward.html">Reward</a>
+                            <div class="dropdown">
+                        </li>
+
                     </ul>
                 </div>
                 <div class="navbar align-self-center d-flex">
-                    <a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover text-primary'></i></a>
-                    <a class="nav-link" href="#"><i class='bx bx-cog bx-sm text-primary'></i></a>
-                    <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-primary'></i></a>
+                    <a class="nav-link" href="login.html"><i class='bx bx-user-circle bx-sm text-primary'></i></a>
                 </div>
             </div>
         </div>
@@ -289,222 +293,35 @@ https://templatemo.com/tm-561-purple-buzz
         <!-- End Work Sigle -->
 
         <!-- Start Comment -->
-        <div class="row justify-content-center">
-            <div class="worksingle-comment-heading col-8 m-auto pb-3">
-                <h4 class="h5">Comments</h4>
-            </div>
-        </div>
-
-        <div class="row pb-4">
-            <div class="worksingle-comment-body col-md-8 m-auto">
-                <div class="d-flex">
-                    <div>
-                        <img class="rounded-circle" src="./assets/img/team-05.jpg" style="width: 50px;">
-                    </div>
-                    <div class="comment-body">
-                        <div class="comment-header d-flex justify-content-between ms-3">
-                            <div class="header text-start">
-                                <h5 class="h6">John Doe</h5>
-                                <p class="text-muted light-300">10 mins ago</p>
-                            </div>
-                            <a href="#" class="text-decoration-none text-secondary"><i class='bx bxs-share me-2'></i>Reply</a>
-                        </div>
-                        <div class="footer">
-                            <div class="card-body border ms-3 light-300">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!-- End Comment -->
+        <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://surveyking.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <!-- End Comment -->
 
 
-        <div class="row pb-4">
-            <div class="col-lg-8 m-auto">
-                <div class="d-flex">
-                    <div>
-                        <img class="rounded-circle" src="./assets/img/team-01.jpg" style="width: 50px;">
-                    </div>
-                    <div class="comment-body">
-                        <div class="comment-header d-flex justify-content-between ms-3">
-                            <div class="header text-start">
-                                <h5 class="h6">Jane Doe</h5>
-                                <p class="text-muted light-300">5 mins ago</p>
-                            </div>
-                            <a href="#" class="text-decoration-none text-secondary"><i class='bx bxs-share me-2'></i>Reply</a>
-                        </div>
-                        <div class="footer">
-                            <div class="card-body border ms-3 light-300">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!-- End Comment -->
-
-
-        <div class="row pb-4">
-            <div class="col-lg-8 m-auto">
-                <div class="d-flex ml-4">
-                    <div>
-                        <img class="rounded-circle" src="./assets/img/team-05.jpg" style="width: 50px;">
-                    </div>
-                    <div class="comment-body">
-                        <div class="comment-header d-flex justify-content-between ms-3">
-                            <div class="header text-start">
-                                <h5 class="h6">John Doe</h5>
-                                <p class="text-muted light-300">15 mins ago</p>
-                            </div>
-                            <a href="#" class="text-decoration-none text-secondary"><i class='bx bxs-share me-2'></i>Reply</a>
-                        </div>
-                        <div class="footer">
-                            <div class="card-body border ms-3 light-300">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!-- End Comment -->
-
-
-        <div class="row pb-4">
-            <div class="col-lg-8 m-auto">
-                <div class="d-flex ml-5">
-                    <div>
-                        <img class="rounded-circle" src="./assets/img/team-01.jpg" style="width: 50px;">
-                    </div>
-                    <div class="comment-body">
-                        <div class="comment-header d-flex justify-content-between ms-3">
-                            <div class="header text-start">
-                                <h5 class="h6">Jane Doe</h5>
-                                <p class="text-muted light-300">16 mins ago</p>
-                            </div>
-                            <a href="#" class="text-decoration-none text-secondary"><i class='bx bxs-share me-2'></i>Reply</a>
-                        </div>
-                        <div class="footer">
-                            <div class="card-body border ms-3 light-300">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!-- End Comment -->
-
-
-        <div class="row pb-4">
-            <div class="worksingle-comment-footer col-lg-8 m-auto">
-                <h4 class="h5">Leave Comment</h4>
-                <form class="col-md-12 m-auto" method="POST" action="#" role="form">
-
-                    <div class="form-group">
-                        <label class="pb-2 pt-sm-0 pt-4 light-300" for="inputmessage">Your Comment</label>
-                        <textarea class="form-control form-control-lg light-300" id="inputmessage" name="inputmessage" placeholder="Your Comment" rows="5"></textarea>
-                    </div>
-
-                    <div class="row py-4">
-                        <div class="col-lg-6">
-                            <label class="pb-2 light-300" for="inputname">Name</label>
-                            <input type="text" class="form-control form-control-lg light-300" id="inputname" name="inputname" placeholder="Name">
-                        </div>
-                        <div class="col-lg-6">
-                            <label class="pb-2 pt-sm-0 pt-4 light-300" for="inputemail">Email</label>
-                            <input type="email" class="form-control form-control-lg light-300" id="inputemail" name="inputemail" placeholder="Email">
-                        </div>
-                    </div>
-
-                    <div class="form-row pt-2">
-                        <div class="col-md-12 col-10 text-end">
-                            <button type="submit" class="btn btn-secondary text-white px-md-4 px-2 py-md-3 py-1 radius-0 light-300">Send Message</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div><!-- End Comment Form -->
 
 
     </section>
     <!-- End Work Sigle -->
 
     <!-- Start Related Post -->
-    <article class="container-fluid bg-light">
-        <div class="container">
-            <div class="worksingle-related-header row">
-                <h1 class="h2 py-5">Related Post</h1>
-                <div class="col-md-12 text-left justify-content-center">
-                    <div class="row gx-5">
-
-
-                        <div class="col-sm-6 col-lg-4 mb-5">
-                            <a href="#" class="related-content card text-decoration-none overflow-hidden h-100">
-                                <img class="related-img card-img-top" src="./assets/img/related-post-01.jpg" alt="Card image cap">
-                                <div class="related-body card-body p-4">
-                                    <h5 class="card-title h6 m-0 semi-bold-600 text-dark">Digital Marketing</h5>
-                                    <p class="card-text pt-2 mb-1 light-300 text-dark">
-                                        Lorem ipsum dolor sit amet, consectetur.
-                                    </p>
-                                    <div class="d-flex justify-content-between">
-                                        <span class="text-primary light-300">Read more</span>
-                                        <div class="light-300">
-                                            <i class='bx-fw bx bx-heart me-1'></i>5
-                                            <i class='bx-fw bx bx-chat    ms-1 me-1'></i>3
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-lg-4 mb-5">
-                            <a href="#" class="related-content card text-decoration-none overflow-hidden h-100">
-                                <img class="related-img card-img-top" src="./assets/img/related-post-02.jpg" alt="Card image cap">
-                                <div class="related-body card-body p-4">
-                                    <h5 class="card-title h6 m-0 semi-bold-600 text-dark">App Development</h5>
-                                    <p class="card-text pt-2 mb-1 light-300 text-dark">
-                                        Tempor incididunt ut labore et dolore.
-                                    </p>
-                                    <div class="d-flex justify-content-between">
-                                        <span class="text-primary light-300">Read more</span>
-                                        <div class="light-300">
-                                            <i class='bx-fw bx bx-heart me-1'></i>11
-                                            <i class='bx-fw bx bx-chat    ms-1 me-1'></i>9
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-lg-4 mb-5">
-                            <a href="#" class="related-content card text-decoration-none overflow-hidden h-100">
-                                <img class="related-img card-img-top" src="./assets/img/related-post-03.jpg" alt="Card image cap">
-                                <div class="related-body card-body p-4">
-                                    <h5 class="card-title h6 m-0 semi-bold-600 text-dark">Digital Marketing</h5>
-                                    <p class="card-text pt-2 mb-1 light-300 text-dark">
-                                        Consectetur adipiscing elit.
-                                    </p>
-                                    <div class="d-flex justify-content-between">
-                                        <span class="text-primary light-300">Read more</span>
-                                        <div class="light-300">
-                                            <i class='bx-fw bx bx-heart me-1'></i>31
-                                            <i class='bx-fw bx bx-chat    ms-1 me-1'></i>2
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-    </article>
+    
     <!-- End Related Post -->
 
 
