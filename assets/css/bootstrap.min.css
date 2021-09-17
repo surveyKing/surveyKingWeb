@@ -3316,8 +3316,8 @@ fieldset:disabled .btn {
   border-color: #212529;
 }
 .btn-outline-primary {
-  color: #4232c2;
-  border-color: #4232c2;
+  color: #3e6fcc;
+  border-color: #3e6fcc;
 }
 .btn-check:active + .btn-outline-primary,
 .btn-check:checked + .btn-outline-primary,
@@ -10389,4 +10389,3 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
-
